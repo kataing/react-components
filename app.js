@@ -10,7 +10,6 @@ class GroceryListItems extends React.Component {
         this.setState({
             done: !this.state.done
         });
-        console.log(this.state);
     }
     render() {
         var style = {

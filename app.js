@@ -28,13 +28,6 @@ var GroceryList = (props) => (
             <GroceryListItems todo={todo} key={key} />
         )}
     </ul>
-
-    // return(
-    // <ul>
-    //     <li onClick={onListItemClick}>{props.GroceryListItems[0]}</li>
-    //     <li onClick={onListItemClick}>{props.GroceryListItems[1]}</li>
-    // </ul>
-    // );
 )
 
 var App = () => (
